@@ -11,7 +11,7 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 
 #Loading the saved Model
-heart_model=pickle.load(open("C:/Users/s.v.subhash reddy/OneDrive/Desktop/MachineLearning-Projects/heart_disease_model.sav","rb"))
+heart_model=pickle.load(open("heart_disease_model.sav","rb"))
 
 #Siderbar/Navigationbar to Navigate
 with st.sidebar:
